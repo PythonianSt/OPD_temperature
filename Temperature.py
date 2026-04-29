@@ -137,8 +137,7 @@ if submitted:
                 messages=[
                     {"role": "system", "content": "คุณเป็นผู้ช่วยคัดกรองผู้ป่วย OPD ภาษาไทย"},
                     {"role": "user", "content": prompt}
-                ],
-                temperature=0.2
+                ]
             )
 
             result = response.choices[0].message.content
